@@ -1,4 +1,4 @@
-package com.example.ordertool
+package com.example.Main
 
 import org.junit.Test
 
