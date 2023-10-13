@@ -8,7 +8,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -35,12 +35,23 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageTECK"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageTECK"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:rotation="-90"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/TECK" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView"
@@ -56,12 +67,24 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageLUMEX"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageLUMEX"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:rotation="0"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/LUMEX" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView2"
@@ -77,12 +100,23 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageBX"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageBX"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:rotation="-90"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/BX" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView3"
@@ -98,12 +132,23 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageBARE"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageBARE"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:rotation="-90"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/BARE" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView4"
@@ -119,12 +164,23 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageBROWN18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/image18BROWN"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:rotation="-90"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/BROWN18" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView5"
@@ -140,12 +196,23 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageNMWU"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageNMWU"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:rotation="-90"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/NMWU" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView6"
@@ -161,12 +228,23 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageCAT"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageCAT"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:rotation="-90"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/CAT" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView7"
@@ -177,27 +255,36 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/TelecomLayout"
+                android:id="@+id/SolStrLayout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 app:layout_column="0"
                 app:layout_row="1">
 
-                <ImageView
-                    android:id="@+id/imageTELECOM"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageSOLSTR"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/SOLSTR" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Telecom" />
-
+                    android:text="Solid/Stranded" />
             </LinearLayout>
 
             <LinearLayout
@@ -208,19 +295,30 @@
                 app:layout_column="1"
                 app:layout_row="1">
 
-                <ImageView
-                    android:id="@+id/imageMULTICOND"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageTOOLS"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:rotation="90"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/TOOL" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Multiconductor" />
+                    android:text="Tools" />
             </LinearLayout>
 
             <LinearLayout
@@ -231,12 +329,22 @@
                 app:layout_column="2"
                 app:layout_row="1">
 
-                <ImageView
-                    android:id="@+id/imageLIGHTING"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageLIGHTING"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/LIGHTING" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView10"
@@ -254,12 +362,22 @@
                 app:layout_column="3"
                 app:layout_row="1">
 
-                <ImageView
-                    android:id="@+id/imageBREAKERS"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageBREAKERS"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/BREAKER" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView11"
@@ -277,12 +395,22 @@
                 app:layout_column="4"
                 app:layout_row="1">
 
-                <ImageView
-                    android:id="@+id/imagePANELS"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imagePANELS"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/PANEL" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView12"
@@ -300,12 +428,22 @@
                 app:layout_column="5"
                 app:layout_row="1">
 
-                <ImageView
-                    android:id="@+id/imagePVCPIPE"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imagePVCPIPE"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/PVCPIPE" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView13"
@@ -323,12 +461,22 @@
                 app:layout_column="6"
                 app:layout_row="1">
 
-                <ImageView
-                    android:id="@+id/imageEMTPIPE"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageEMTPIPE"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/EMTPIPE" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView14"
@@ -346,12 +494,22 @@
                 app:layout_column="0"
                 app:layout_row="2">
 
-                <ImageView
-                    android:id="@+id/imageSWITCH"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageSWITCHES"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/SWITCH" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView15"
@@ -369,12 +527,22 @@
                 app:layout_column="1"
                 app:layout_row="2">
 
-                <ImageView
-                    android:id="@+id/imageTRANSFORMER"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageTRANSFORMER"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/TRANSFORMER" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView16"
@@ -392,12 +560,22 @@
                 app:layout_column="2"
                 app:layout_row="2">
 
-                <ImageView
-                    android:id="@+id/imageFUSE"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageFUSE"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/FUSE" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView17"
@@ -416,12 +594,22 @@
                 app:layout_column="3"
                 app:layout_row="2">
 
-                <ImageView
-                    android:id="@+id/imageHVAC"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageHVAC"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/HVAC" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView18"
@@ -436,15 +624,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_column="4"
+                app:layout_column="5"
                 app:layout_row="2">
 
-                <ImageView
-                    android:id="@+id/imageEMTPART"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imageEMTPART"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/EMTPART" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView19"
@@ -459,15 +657,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_column="5"
+                app:layout_column="4"
                 app:layout_row="2">
 
-                <ImageView
-                    android:id="@+id/imagePVCPART"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:src="@tools:sample/avatars" />
+                <FrameLayout
+                    android:layout_width="127.75dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imagePVCPART"
+                        android:layout_width="127.74dp"
+                        android:layout_height="127.74dp"
+                        android:clickable="true"
+
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/PVCPART" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/custom_gradient_bottom" />
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/textView20"
