@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "com.example.television"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.television"
         minSdk = 21
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -36,4 +36,7 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.11.0")
     implementation("androidx.fragment:fragment:1.7.0-alpha06")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation ("org.jetbrains.kotlin:kotlin-stdlib:1.8.22")
+    implementation ("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22")
+    implementation ("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22")
 }

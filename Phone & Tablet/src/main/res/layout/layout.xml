@@ -19,7 +19,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/New_Logo_Pasha_Electrique_inc" />
+            app:srcCompat="@drawable/new_logo_pasha_electrique_inc" />
 
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="894.2dp"
@@ -44,8 +44,7 @@
                         android:layout_height="127.74dp"
                         android:clickable="true"
                         android:rotation="-90"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/TECK" />
+                        app:srcCompat="@drawable/teck" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -77,8 +76,7 @@
                         android:layout_height="127.74dp"
                         android:clickable="true"
                         android:rotation="0"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/LUMEX" />
+                        app:srcCompat="@drawable/lumex" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -109,8 +107,7 @@
                         android:layout_height="127.74dp"
                         android:clickable="true"
                         android:rotation="-90"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/BX" />
+                        app:srcCompat="@drawable/bx" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -141,8 +138,7 @@
                         android:layout_height="127.74dp"
                         android:clickable="true"
                         android:rotation="-90"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/BARE" />
+                        app:srcCompat="@drawable/bare" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -173,8 +169,7 @@
                         android:layout_height="127.74dp"
                         android:clickable="true"
                         android:rotation="-90"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/BROWN18" />
+                        app:srcCompat="@drawable/brown18" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -205,8 +200,7 @@
                         android:layout_height="127.74dp"
                         android:clickable="true"
                         android:rotation="-90"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/NMWU" />
+                        app:srcCompat="@drawable/nmwu" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -237,8 +231,7 @@
                         android:layout_height="127.74dp"
                         android:clickable="true"
                         android:rotation="-90"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/CAT" />
+                        app:srcCompat="@drawable/cat" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -270,8 +263,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/SOLSTR" />
+                        app:srcCompat="@drawable/solstr" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -304,8 +296,7 @@
                         android:layout_height="127.74dp"
                         android:clickable="true"
                         android:rotation="90"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/TOOL" />
+                        app:srcCompat="@drawable/tool" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -337,8 +328,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/LIGHTING" />
+                        app:srcCompat="@drawable/lighting" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -370,8 +360,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/BREAKER" />
+                        app:srcCompat="@drawable/breaker" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -403,8 +392,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/PANEL" />
+                        app:srcCompat="@drawable/panel" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -436,8 +424,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/PVCPIPE" />
+                        app:srcCompat="@drawable/pvcpipe" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -469,8 +456,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/EMTPIPE" />
+                        app:srcCompat="@drawable/emtpipe" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -497,13 +483,13 @@
                 <FrameLayout
                     android:layout_width="127.75dp"
                     android:layout_height="wrap_content">
+
                     <ImageView
                         android:id="@+id/imageSWITCHES"
-                        android:layout_width="127.74dp"
+                        android:layout_width="match_parent"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/SWITCH" />
+                        app:srcCompat="@drawable/switches" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -535,8 +521,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/TRANSFORMER" />
+                        app:srcCompat="@drawable/transformer" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -568,8 +553,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/FUSE" />
+                        app:srcCompat="@drawable/fuse" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -602,8 +586,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/HVAC" />
+                        app:srcCompat="@drawable/hvac" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -635,8 +618,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/EMTPART" />
+                        app:srcCompat="@drawable/emtpart" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -668,9 +650,7 @@
                         android:layout_width="127.74dp"
                         android:layout_height="127.74dp"
                         android:clickable="true"
-
-                        android:src="@tools:sample/avatars"
-                        app:srcCompat="@drawable/PVCPART" />
+                        app:srcCompat="@drawable/pvcpart" />
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
