@@ -20,5 +20,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="com.example.Main.TECKActivity"/>
+        <activity android:name="com.example.Main.LUMEXActivity"/>
+        <activity android:name="com.example.Main.BXActivity"/>
+        <activity android:name="com.example.Main.BAREActivity"/>
+        <activity android:name="com.example.Main.BROWN18Activity"/>
+        <activity android:name="com.example.Main.NMWUActivity"/>
+        <activity android:name="com.example.Main.CATActivity"/>
+        <activity android:name="com.example.Main.SOLSTRActivity"/>
+        <activity android:name="com.example.Main.TOOLActivity"/>
+
     </application>
 </manifest>
