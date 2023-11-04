@@ -11,5 +11,7 @@ public class Activity_Cat extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_cat);
 
+        // Title of Activity Layout
+        getSupportActionBar().setTitle("CAT Ethernet Cable");
     }
 }

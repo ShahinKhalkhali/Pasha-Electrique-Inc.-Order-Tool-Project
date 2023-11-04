@@ -11,5 +11,7 @@ public class Activity_Tool extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_tool);
 
+        // Title of Activity Layout
+        getSupportActionBar().setTitle("Tools");
     }
 }

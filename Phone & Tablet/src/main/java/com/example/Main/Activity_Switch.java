@@ -10,5 +10,8 @@ public class Activity_Switch extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_switch);
+
+        // Title of Activity Layout
+        getSupportActionBar().setTitle("Switches");
     }
 }

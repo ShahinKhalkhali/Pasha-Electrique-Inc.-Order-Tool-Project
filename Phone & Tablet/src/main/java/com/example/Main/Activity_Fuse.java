@@ -11,5 +11,7 @@ public class Activity_Fuse extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_fuse);
 
+        // Title of Activity Layout
+        getSupportActionBar().setTitle("Fuses");
     }
 }

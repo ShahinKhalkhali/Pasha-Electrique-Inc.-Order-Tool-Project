@@ -11,5 +11,7 @@ public class Activity_NMWU extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_nmwu);
 
+        // Title of Activity Layout
+        getSupportActionBar().setTitle("NMWU Cable");
     }
 }

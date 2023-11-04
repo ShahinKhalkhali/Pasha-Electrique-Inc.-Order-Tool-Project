@@ -11,5 +11,7 @@ public class Activity_Sol_Str extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_solstr);
 
+        // Title of Activity Layout
+        getSupportActionBar().setTitle("Solid & Stranded Wires");
     }
 }

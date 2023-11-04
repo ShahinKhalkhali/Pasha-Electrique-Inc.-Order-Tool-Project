@@ -11,5 +11,7 @@ public class Activity_EMT_Pipe extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_emtpipe);
 
+        // Title of Activity Layout
+        getSupportActionBar().setTitle("EMT Pipes");
     }
 }

@@ -51,6 +51,41 @@
         <activity android:name="com.example.Main.Activity_Tool"
             android:screenOrientation="landscape"/>
 
+        <activity android:name="com.example.Main.Activity_Lighting"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Breaker"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Panel"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_PVC_Pipe"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_EMT_Pipe"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Switch"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Transformer"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Fuse"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_HVAC"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_PVC_Part"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_EMT_Part"
+            android:screenOrientation="landscape"/>
+
+
+
 
     </application>
 </manifest>

@@ -10,5 +10,8 @@ public class Activity_Transformer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_transformer);
+
+        // Title of Activity Layout
+        getSupportActionBar().setTitle("Transformers");
     }
 }

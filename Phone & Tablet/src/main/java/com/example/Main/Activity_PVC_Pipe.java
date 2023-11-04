@@ -10,5 +10,8 @@ public class Activity_PVC_Pipe extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_pvcpipe);
+
+        // Title of Activity Layout
+        getSupportActionBar().setTitle("PVC Pipes");
     }
 }

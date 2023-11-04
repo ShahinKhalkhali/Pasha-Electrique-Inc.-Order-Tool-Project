@@ -11,5 +11,7 @@ public class Activity_EMT_Part extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_emtpart);
 
+        // Title of Activity Layout
+        getSupportActionBar().setTitle("EMT Parts");
     }
 }
