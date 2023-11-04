@@ -1,15 +1,16 @@
 package com.example.Main;
 
 import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.ordertool.R;
 
-public class LUMEXActivity extends AppCompatActivity {
+public class Activity_Lighting extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_layout);
+        setContentView(R.layout.layout_lighting);
     }
 }

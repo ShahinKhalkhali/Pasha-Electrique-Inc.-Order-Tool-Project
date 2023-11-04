@@ -5,11 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.ordertool.R;
 
-public class SOLSTRActivity extends AppCompatActivity {
+public class Activity_Bare extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_layout);
+        setContentView(R.layout.layout_bare);
+
     }
 }

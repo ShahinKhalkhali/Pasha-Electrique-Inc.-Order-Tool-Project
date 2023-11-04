@@ -13,23 +13,44 @@
         android:theme="@style/Theme.OrderTool"
         tools:targetApi="31">
 
-        <activity android:name="com.example.Main.AndroidMainActivity"
-            android:exported="true">
+        <activity android:name="com.example.Main.Activity_Main"
+            android:exported="true"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.Main.TECKActivity"/>
-        <activity android:name="com.example.Main.LUMEXActivity"/>
-        <activity android:name="com.example.Main.BXActivity"/>
-        <activity android:name="com.example.Main.BAREActivity"/>
-        <activity android:name="com.example.Main.BROWN18Activity"/>
-        <activity android:name="com.example.Main.NMWUActivity"/>
-        <activity android:name="com.example.Main.CATActivity"/>
-        <activity android:name="com.example.Main.SOLSTRActivity"/>
-        <activity android:name="com.example.Main.TOOLActivity"/>
+        <!-- TODO: Make back button for each activity -->
+
+        <activity android:name="com.example.Main.Activity_Teck"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Lumex"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_BX"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Bare"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Brown18"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_NMWU"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Cat"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Sol_Str"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name="com.example.Main.Activity_Tool"
+            android:screenOrientation="landscape"/>
+
 
     </application>
 </manifest>
